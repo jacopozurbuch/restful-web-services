@@ -12,7 +12,7 @@ springBoot {
 }
 
 //mainClassName = 'com.restfulapi.restfulwebservices.RestfulWebServicesApplication.java'
-//group = 'com.restfulapi.restfulwebservices'
+group = 'com.restfulapi'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -29,6 +29,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.data:spring-data-rest-hal-explorer'
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.security:spring-security-test'
 	implementation 'com.amazonaws:aws-xray-recorder-sdk-core:2.11.2'
 	implementation 'com.amazonaws:aws-xray-recorder-sdk-aws-sdk-v2:2.11.2'
 	implementation 'com.amazonaws:aws-xray-recorder-sdk-spring:2.11.2'
